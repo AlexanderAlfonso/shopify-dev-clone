@@ -17,7 +17,7 @@ body {
     --light-grey: #d7d7d8;
     --dark-grey: #151d1e;
     --white: #eef1f1;
-    --green: #8cfb80;
+    --green: #eafaf3;
     --blue: #b5c9fa;
     --footer: #20292b;
     --background: #fff;
@@ -135,4 +135,72 @@ body {
 .hero-section-text-buttons h2 {
     margin-bottom: 0;
     margin-left: 10px;
+}
+
+/* HIGHLIGHTS SECTION  */
+.highlights-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 64px 128px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    background-color: var(--green);
+    border-radius: 16px;
+}
+
+.highlights-section-text {
+    padding-right: 100px;
+}
+
+.highlights-section-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.highlights-section-text h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.highlights-section-text p {
+    font-size: 1rem;
+    color: var(--grey);
+    margin-bottom: 24px;
+}
+
+.highlights-section img {
+    width: 50px;
+    margin-right: 24px;
+}
+
+.highlights-section-card {
+    background-color: var(--background);
+    padding: 80px 64px;
+    width: 425px;
+    border: 3px solid var(--black);
+    justify-self: end;
+    box-shadow: 10px 10px 0px 0px rgba(13,18,19,1);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(13,18,19,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(13,18,19,1);
+}
+
+.highlights-section-card h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.highlights-section-card p {
+    font-size: 0.875rem;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
 }
