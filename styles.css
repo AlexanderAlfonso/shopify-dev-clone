@@ -1,13 +1,14 @@
 /* GLOBAL  */
 html {
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background);
-    color: var(--white);
+    color: var(--black);
 }
 
 :root {
@@ -25,6 +26,7 @@ body {
 /* NAVBAR  */
 .navbar {
     padding: 8px 0;
+    margin-inline: 50px;
 }
 
 .navbar-nav {
@@ -41,37 +43,96 @@ body {
     color: var(--dark-grey);
 }
 
-.search {
-    margin-left: 400px;
-    height: 25px;
-}
-
 .form-control {
     font-size: 12px;
+    border: none;
 }
 
-.search .btn {
-    font-size: 12px;
+.search-box-container {
+    width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background);
-    border: 2px solid var(--green);
+    border: 1px solid var(--grey);
+    padding: 8px;
+    border-radius: 8px;
+    padding-block: 0;
+    margin-right: 20px;
 }
 
-.search .btn:hover {
-    color: var(--dark-grey);
-    background-color: var(--green);
-}
-
-.log-in {
-    margin-left: 20px;
-}
-
-.sign-up {
-    margin-right: 125px;
+.search-box-container .fa-solid {
+    color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* HERO SECTION  */
+.hero-section {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 100px;
+}
 
+.hero-section-text {
+    padding-left: 125px;
+    padding-top: 100px;
+}
 
+.hero-section-text h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 32px;
+}
+
+.hero-section-text h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.hero-section-text p {
+    margin-bottom: 32px;
+    font-size: 1.125rem;
+}
+
+.hero-img {
+    max-width: 850px;
+    position: absolute;
+    top: 20px;
+    right: -175px;
+}
+
+.hero-section-text-buttons {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.hero-section-text-buttons img {
+    width: 50px;
+}
+
+.hero-section-text-buttons button {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid var(--light-grey);
+    border-radius: 10px;
+    background-color: var(--background);
+    box-shadow: 0px 2px 6px 0px rgba(92,95,98,0.3);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(92,95,98,0.3);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(92,95,98,0.3);
+    transition: all 0.2s;
+}
+
+.hero-section-text-buttons button:hover {
+    transform: scale(1.1);
+}
+
+.hero-section-text-buttons h2 {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
