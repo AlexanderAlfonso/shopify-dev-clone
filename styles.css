@@ -1,0 +1,77 @@
+/* GLOBAL  */
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background);
+    color: var(--white);
+}
+
+:root {
+    --black: #0d1213;
+    --grey: #5c5f62;
+    --light-grey: #d7d7d8;
+    --dark-grey: #151d1e;
+    --white: #eef1f1;
+    --green: #8cfb80;
+    --blue: #b5c9fa;
+    --footer: #20292b;
+    --background: #fff;
+}
+
+/* NAVBAR  */
+.navbar {
+    padding: 8px 0;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--grey);
+    font-size: 14px;
+    margin-inline: 10px;
+}
+
+.nav-link:hover {
+    color: var(--dark-grey);
+}
+
+.search {
+    margin-left: 400px;
+    height: 25px;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+.search .btn {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    border: 2px solid var(--green);
+}
+
+.search .btn:hover {
+    color: var(--dark-grey);
+    background-color: var(--green);
+}
+
+.log-in {
+    margin-left: 20px;
+}
+
+.sign-up {
+    margin-right: 125px;
+}
+
+/* HERO SECTION  */
+
+
