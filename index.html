@@ -24,7 +24,9 @@
 
 <body>
 
-<!-- NAVBAR  -->
+<!-- NAVBAR - To align an item to the right side of the navbar, wrap the item(s) in a seperate div and while using the BS library, 
+use "ms-auto" to apply a margin-left of auto. You can also use the class of d-flex on seperate elements so that they justify and 
+align themselves center. -->
 <nav class="navbar navbar-expand-xxl">
     <div class="container-fluid">
       <a class="navbar-brand" href="">
@@ -63,7 +65,7 @@
             </ul>
           </li>
         </ul>
-        <div class="search-box-container ms-auto">
+       <div class="search-box-container ms-auto">  <!-- Aligned this to the right by wrapping it in a div and using ms-auto -->
           <form class="d-flex search" role="search">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
