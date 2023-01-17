@@ -291,15 +291,19 @@ body {
 }
 
 /* MEDIA QUERIES  */
+
+/* MOBILE  */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
 
+    /* NAVBAR  */
     .navbar {
         padding-top: 16px;
         margin-inline: 16px;
     }
 
+    /* HERO SECTION  */
     .hero-section {
         display: block;
         margin-bottom: 50px;
