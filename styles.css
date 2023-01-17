@@ -261,3 +261,28 @@ body {
 .resources-card p {
     font-size: 0.875rem;
 }
+
+/* FOOTER SECTION  */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    padding: 80px 140px;
+    background-color: #fbfbfb;
+}
+
+.footer-grid h2 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-grid ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-grid li{
+    margin-bottom: 8px;
+    font-size: 0.875rem;
+}
