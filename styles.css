@@ -691,3 +691,22 @@ body {
         padding: 64px 24px;
     }
 }
+
+@media only screen
+    and (min-width: 1351px) {
+        /* NAVBAR  */
+        .search-box-container {
+            margin-top: 16px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .log-in, .sign-up {
+            justify-content: center;
+            margin-top: 16px;
+        }
+    
+        .navbar-nav {
+            margin-top: 32px;
+        }
+    }
