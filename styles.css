@@ -299,8 +299,6 @@ body {
 }
 
 /* MEDIA QUERIES  */
-
-/* MOBILE  */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px) {
@@ -430,4 +428,266 @@ body {
         gap: 16px;
         padding: 64px 24px;
     }
+}
+
+@media only screen 
+  and (min-device-width: 481px) 
+  and (max-device-width: 799px) {
+        /* NAVBAR  */
+    .navbar {
+        padding-top: 16px;
+        margin-inline: 16px;
+    }
+
+    .search-box-container {
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .log-in, .sign-up {
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .navbar-nav {
+        margin-top: 32px;
+    }
+
+    /* HERO SECTION  */
+    .hero-section {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .hero-section-text {
+        padding-inline: 0px;
+        padding-top: 32px;
+    }
+
+    .hero-section-text>* {
+        padding-inline: 24px;
+    }
+
+    .hero-section-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-img {
+        all: unset;
+        display: none;
+    }
+
+    .hero-section-text-buttons {
+        display: block;
+        padding-inline: 24px;
+    }
+
+    .hero-section-text-buttons button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero-image-mobile-1 {
+        background-image: url("images/mobile-banner-1.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 16px;
+    }
+
+    .hero-image-mobile-2 {
+        background-image: url("images/mobile-banner-2.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 16px;
+    }
+
+    .hero-image-mobile-3 {
+        background-image: url("images/mobile-banner-3.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-block: 32px;
+    }
+
+    /* HIGHLIGHTS SECTION  */
+    .highlights-section {
+        display: block;
+        padding: 64px 24px;
+        margin: 0;
+    }
+
+    .highlights-section-text {
+        padding: 0;
+    }
+
+    .highlights-section-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .highlights-section-card {
+        width: 75%;
+        padding: 24px 32px;
+        margin-top: 50px;
+    }
+
+    .text-box:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    /* RESOURCES SECTION  */
+    .resources {
+        display: block;
+        padding: 0 24px;
+        margin-block: 50px;
+    }
+
+    .resources-card-main, .resources-card {
+        margin-bottom: 20px;
+    }
+
+    /* FOOTER  */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: start;
+        gap: 16px;
+        padding: 64px 24px;
+    }
   }
+
+@media only screen
+    and (min-width: 800px)
+    and (max-width: 1350px) {
+        /* NAVBAR  */
+    .navbar {
+        padding-top: 16px;
+        margin-inline: 16px;
+    }
+
+    .search-box-container {
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .log-in, .sign-up {
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .navbar-nav {
+        margin-top: 32px;
+    }
+
+    /* HERO SECTION  */
+    .hero-section {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .hero-section-text {
+        padding-inline: 0px;
+        padding-top: 32px;
+    }
+
+    .hero-section-text>* {
+        padding-inline: 24px;
+    }
+
+    .hero-section-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-img {
+        all: unset;
+        display: none;
+    }
+
+    .hero-section-text-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 24px;
+    }
+
+    .hero-section-text-buttons button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .hero-image-mobile-1 {
+        background-image: url("images/mobile-banner-1.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 16px;
+    }
+
+    .hero-image-mobile-2 {
+        background-image: url("images/mobile-banner-2.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 16px;
+    }
+
+    .hero-image-mobile-3 {
+        background-image: url("images/mobile-banner-3.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20vh;
+        margin-block: 32px;
+    }
+
+    /* HIGHLIGHTS SECTION  */
+    .highlights-section {
+        display: block;
+        padding: 64px 24px;
+        margin: 0;
+    }
+
+    .highlights-section-text {
+        padding: 0;
+    }
+
+    .highlights-section-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .highlights-section-card {
+        width: 75%;
+        padding: 24px 32px;
+        margin-top: 50px;
+    }
+
+    .text-box:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    /* RESOURCES SECTION  */
+    .resources {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 24px;
+        margin-block: 50px;
+    }
+
+    .resources-card-main, .resources-card {
+        margin-bottom: 0;
+    }
+
+    /* FOOTER  */
+    .footer-grid {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: start;
+        gap: 16px;
+        padding: 64px 24px;
+    }
+}
